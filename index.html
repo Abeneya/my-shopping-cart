@@ -1,0 +1,137 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+<header>
+
+</header>
+<nav class="navbar navbar-expand-md bg-primary navbar-dark" style="width:960px;margin:auto;border:2px solid red;">
+
+<button class="navbar-toggler" data-toggle="collapse" data-target="#mynavbar">
+    <span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="collapse navbar-collapse justify-content-center" style="text-align:center;" id="mynavbar">
+<ul class="navbar-nav">
+<li class="nav-item"><a class="nav-link" role="button" onclick="displayItems(1)">HOME APPLIANCES</a></li>
+<li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" data-toggle="dropdown" role="button">COSTUMES</a>
+    <div class="dropdown-menu">
+    <a class="dropdown-item" role="button" onclick="displayItems(3)">MEN'S WEAR</a>
+    <a class="dropdown-item" role="button" onclick="displayItems(2)">WOMEN'S WEAR</a>
+    </div>
+
+
+</li>
+<li class="nav-item"><a class="nav-link" role="button" onclick="displayItems(4)">FOOD</a></li>
+<li class="nav-item"><a class="nav-link" role="button" onclick="displayItems(5)">BOOKS</a></li>
+
+</ul>
+</div>
+</nav>
+<div class="myRow">
+<div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+    <li data-target="#demo" data-slide-to="3"></li>
+    <li data-target="#demo" data-slide-to="4"></li>
+  
+  </ul>
+  
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/fridge.webp">
+      <img src="images/grinder.jpg"><br>
+      <img src="images/iron box.jpg">
+      <img src="images/water purifier.jpg">
+      <div class="carousel-caption">
+      <h3>home Appliance</h3>
+      </div>
+
+    </div>
+    <div class="carousel-item">
+      <img src="images/kurti.jpeg" style="object-position:0px 10px;">
+      <img src="images/lehanga.jpg" style="object-position:0px -90px;"><br>
+      <img src="images/saree.webp" style="object-position:0px 10px;">
+      <img src="images/silk saree.webp" style="object-position:0px -50px;">
+
+      <div class="carousel-caption">
+        <h3>womens wear</h3>
+    
+      </div>
+    </div>
+    <div class="carousel-item">
+      
+      <img src="images/maron shirt.webp" style="object-position:0px 10px;">
+      <img src="images/mens suit.jpg" style="object-position:0px 10px;"><br>
+      <img src="images/blue shirt.webp" style="object-position:0px 10px;">
+      <img src="images/black suit.webp" style="object-position:0px 10px;">
+      <div class="carousel-caption">
+      <h3>mens wear</h3>
+    </div>
+  </div>
+  
+  <div class ="carousel-item ">
+
+    <img src="images/briyani.webp">
+    <img src="images/Butter-Chicken.jpg"><br>
+    <img src="images/dosa.jpg">
+    <img src="images/fish fry.jpg">
+    <div class="carousel-caption">
+      <h3>Food</h3>
+    </div>
+  </div>
+  
+  <div class="carousel-item">
+    <img src="images/History book.webp">
+    <img src="images/Geograpical book.webp"><br>
+    <img src="images/Atlas book.jpg">
+    <img src="images/Bhagavad-gita book.webp">
+  
+    <div class="carousel-caption">
+      <h3>Books</h3>
+    </div>
+    </div>
+ 
+
+  </div>
+  
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+</div>
+
+<div id="flexOutput"></div>
+<div id="finalBill"></div>
+
+<script src="../data/js app.js"></script>
+</body>
+
+
+
+
+
+</html>

@@ -1,0 +1,199 @@
+[
+{
+"filter_id":1,
+"products":[{
+             "product_id":10,
+             "product_name":"fridge",
+             "imgSrc":"images/fridge.webp",
+             "price":150000
+             },
+             {
+             "product_id":11,
+             "product_name":"Grinder",
+             "imgSrc":"images/Grinder.jpg",
+             "price":10000
+             },
+             {
+             "product_id":13,
+             "product_name":"iron box",
+             "imgSrc":"images/iron box.jpg",
+             "price":2000
+             },
+             {
+             "product_id":14,
+             "product_name":"Water Purifier",
+             "imgSrc":"images/Water Purifier.jpg",
+             "price":20000
+             },
+             {
+             "product_id":15,
+             "product_name":"AC",
+             "imgSrc":"images/AC.jpg",
+             "price":50000
+             },
+             {
+             "product_id":16,
+             "product_name":"mixer",
+             "imgSrc":"images/mixer.jpg",
+             "price":25000
+             }]
+ },
+ {
+ "filter_id":2,
+ "products":[{
+            "product_id":17,
+            "product_name":"kurti",
+            "imgSrc":"images/kurti.jpeg",
+            "price":1500
+            },
+            {
+            "product_id":18,
+            "product_name":"lehanga",
+            "imgSrc":"images/lehanga.jpg",
+            "price":5000
+            },
+            {
+            "product_id":19,
+            "product_name":"saree",
+            "imgSrc":"images/saree.webp",
+            "price":1500
+            },
+            {
+            "product_id":20,
+            "product_name":"sharara",
+            "imgSrc":"images/sharara.webp",
+            "price":2500
+            },
+            {
+            "product_id":21,
+            "product_name":"silk saree",
+            "imgSrc":"images/silk saree.webp",
+            "price":999
+            },
+            {
+            "product_id":22,
+            "product_name":"womens wear",
+            "imgSrc":"images/womens wear.webp",
+            "price":3000
+            }]
+            
+ },
+ {
+ "filter_id":3,
+ "products":[{
+             "product_id":23,
+             "product_name":"black suit",
+             "imgSrc":"images/black suit.webp",
+             "price":600
+             },
+             {
+             "product_id":24,
+             "product_name":"blue shirt",
+             "imgSrc":"images/blue shirt.webp",
+             "price":500
+             },
+             {
+             "product_id":25,
+             "product_name":"maron shirt",
+             "imgSrc":"images/maron shirt.webp",
+             "price":1000
+             },
+             {
+             "product_id":26,
+             "product_name":"shoe",
+             "imgSrc":"images/shoe.webp",
+             "price":3000
+             },
+             {
+             "product_id":27,
+             "product_name":"tshirt",
+             "imgSrc":"images/tshirt.webp",
+             "price":1500
+             },
+             {
+             "product_id":28,
+             "product_name":"mens suit",
+             "imgSrc":"images/mens suit.jpg",
+             "price":4000
+             }]
+ },
+ {
+ "filter_id":4,
+ "products":[{
+              "product_id":29,
+              "product_name":"briyani",
+              "imgSrc":"images/briyani.webp",
+              "price":399
+              },
+              {
+              "product_id":30,
+              "product_name":"Butter-Chicken",
+              "imgSrc":"images/Butter-Chicken.jpg",
+              "price":299
+              },
+              {
+              "product_id":31,
+              "product_name":"dosa",
+              "imgSrc":"images/dosa.jpg",
+              "price":150
+              },
+              {
+              "product_id":32,
+              "product_name":"fish fry",
+              "imgSrc":"images/fish fry.jpg",
+              "price":200
+              },
+              {
+              "product_id":33,
+              "product_name":"juice",
+              "imgSrc":"images/juice.jpg",
+              "price":399
+              },
+              {
+              "product_id":34,
+              "product_name":"whole fried chicken",
+              "imgSrc":"images/whole fried chicken.webp",
+              "price":600
+              }]
+ },
+ {
+ "filter_id":5,
+ "products":[{
+              "product_id":35,
+              "product_name":"Atlas",
+              "imgSrc":"images/Atlas book.jpg",
+              "price":100
+              },
+              {
+              "product_id":36,
+              "product_name":"Bhagavad-gita",
+              "imgSrc":"images/Bhagavad-gita book.webp",
+              "price":199
+              },
+              {
+              "product_id":37,
+              "product_name":"cindrella",
+              "imgSrc":"images/cindrella book.jpg",
+              "price":499
+              },
+              {
+              "product_id":38,
+              "product_name":"empire",
+              "imgSrc":"images/empire book.jpg",
+              "price":499
+              },
+              {
+              "product_id":39,
+              "product_name":"Geograpical",
+              "imgSrc":"images/Geograpical book.webp",
+              "price":299
+              },
+              {
+              "product_id":40,
+              "product_name":"History",
+              "imgSrc":"images/History book.webp",
+              "price":300
+              }]
+ 
+}
+]
